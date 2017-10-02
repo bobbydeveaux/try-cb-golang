@@ -17,7 +17,7 @@ import (
 )
 
 var (
-	cbConnStr  = "couchbase://localhost"
+	cbConnStr  = "couchbase://openshift-server"
 	cbBucket   = "travel-sample"
 	cbPassword = ""
 	jwtSecret  = []byte("UNSECURE_SECRET_TOKEN")
